@@ -46,6 +46,7 @@ header {
   margin: 0;
   width: 1158px;
   padding: 0 15px;
+  box-sizing: border-box;
 }
 nav {
   display: flex;
@@ -69,8 +70,7 @@ nav {
 .nav-list {
   display: flex;
   list-style: none;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 
 .nav-item {
