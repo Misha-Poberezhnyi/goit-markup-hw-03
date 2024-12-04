@@ -2,13 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
-  margin: 0%;
-  padding: 0%;
-}
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
 }
 
 h1,
@@ -18,15 +11,13 @@ h4,
 h5,
 h6,
 p {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 ul,
 ol {
   list-style-type: none;
-  padding-left: 0;
-  margin-top: 0;
-  margin-bottom: 0;
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -36,30 +27,29 @@ img {
   display: block;
 }
 
-.conteiner {
+.container {
   width: 1158px;
   padding: 0 15px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
 }
+
 /*header*/
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-conteiner {
+.header-container {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
 }
 
 .header-nav {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 
-.header-logo {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -68,24 +58,20 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   display: flex;
+}
+.header-logo {
+  padding: 24px 0;
   margin-right: 76px;
 }
 
 .header-logo .logo-part {
   color: #2e2f42;
 }
+
 .nav-list {
   display: flex;
   align-items: center;
-  list-style: none;
-}
-
-.nav-item {
-  margin-right: 40px;
-}
-
-.nav-item:last-child {
-  margin-right: 0;
+  gap: 40px;
 }
 
 .nav-link {
@@ -94,6 +80,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: block;
   padding: 24px 0;
 }
 
@@ -105,33 +92,28 @@ img {
 }
 
 .contacts {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  margin-left: 332px;
+  font-style: normal;
+  margin-left: auto;
 }
 
 .contacts-list {
   display: flex;
   align-items: center;
-  list-style: none;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-.contacts-item {
-  margin-right: 40px;
-}
-.contacts-item:last-child {
-  margin-right: 0%;
+  gap: 40px;
 }
 
 .contacts-link {
+  padding: 24px 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  display: block;
+  padding: 24px 0;
 }
+
+/*hero image*/
+
 .hero-img {
   background: #2e2f42;
 }
