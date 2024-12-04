@@ -46,9 +46,15 @@ header {
   margin-right: auto;
   margin-left: auto;
 }
-.page-header .conteiner {
+.page-header {
   display: flex;
   justify-content: space-between;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  padding: 24px 0;
 }
 
 .header-logo {
@@ -61,21 +67,15 @@ header {
   color: #4d5ae5;
   display: flex;
   margin-right: 76px;
-  padding: 24px 0;
 }
 
 .header-logo .logo-part {
   color: #2e2f42;
 }
-.header-nav {
-  display: flex;
-}
 .nav-list {
   display: flex;
   align-items: center;
   list-style: none;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .nav-item {
