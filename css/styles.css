@@ -41,7 +41,7 @@ header {
   display: flex;
 }
 .conteiner {
-  max-width: 1158px;
+  width: 1158px;
   padding: 0 15px;
   margin-right: auto;
   margin-left: auto;
