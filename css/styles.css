@@ -184,7 +184,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .feature-item-text {
   font-size: 16px;
@@ -196,6 +196,7 @@ img {
 
 .our-team-page {
   background: #f4f4fd;
+  padding: 120px 0;
 }
 .team-card-item {
   background: #fff;
@@ -208,7 +209,23 @@ img {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
+
+.team-card {
+  display: flex;
+  gap: 24px;
+}
+
+.team-card-item {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.card-description {
+  padding: 32px 0;
+}
+
 .card-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -216,6 +233,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .card-item-text {
   font-size: 16px;
