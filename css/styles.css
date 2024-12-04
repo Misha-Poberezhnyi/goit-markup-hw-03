@@ -36,17 +36,19 @@ img {
   display: block;
 }
 
-header {
-  border-bottom: 1px solid #e7e9fc;
-  display: flex;
-}
 .conteiner {
   width: 1158px;
   padding: 0 15px;
   margin-right: auto;
   margin-left: auto;
 }
+/*header*/
+
 .page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-conteiner {
   display: flex;
   justify-content: space-between;
 }
