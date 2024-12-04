@@ -48,8 +48,13 @@ header {
   padding: 0 15px;
   box-sizing: border-box;
 }
+.conteiner-header {
+  width: 1158px;
+}
 nav {
   display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
 }
 .header-logo {
@@ -61,7 +66,6 @@ nav {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
-  margin-left: 156px;
 }
 
 .header-logo .logo-part {
@@ -69,8 +73,10 @@ nav {
 }
 .nav-list {
   display: flex;
+  align-items: center;
   list-style: none;
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-item {
@@ -78,7 +84,7 @@ nav {
 }
 
 .nav-item:last-child {
-  margin-right: 0;
+  margin-right: 332px;
 }
 
 .nav-link {
@@ -96,21 +102,25 @@ nav {
   color: #404bbf;
 }
 
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .contacts-list {
   display: flex;
+  align-items: center;
   list-style: none;
   padding-top: 24px;
   padding-bottom: 24px;
 }
-
 .contacts-item {
   margin-right: 40px;
-  margin-left: 332px;
 }
-
 .contacts-item:last-child {
-  margin-right: 0;
-  margin-left: 40px;
+  margin-right: 0%;
 }
 
 .contacts-link {
@@ -118,7 +128,6 @@ nav {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-right: 40px;
 }
 .hero-img {
   background: #2e2f42;
